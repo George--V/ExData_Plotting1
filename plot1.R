@@ -1,6 +1,6 @@
 # This script generates a histogram of the variable Global_active_power
-# taken from the household_power_consumption.txt dataset
-# in the range 1/2/2007-2/2/2007
+# (taken from the household_power_consumption.txt dataset
+# in the range 1/2/2007-2/2/2007).
 # the resulting graph is saved to a png image file
 
 x<-read.table("household_power_consumption.txt")
