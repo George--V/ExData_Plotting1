@@ -1,7 +1,6 @@
-# This script generates a plot of the variables Sub_metering_1,Sub_metering_2
-# and Sub_metering_3 (taken from the household_power_consumption.txt dataset
-# in the range 1/2/2007-2/2/2007) as a function of date/time
-# the resulting graph is saved to a png image file
+# This script generates for plotsfrom the household_power_consumption.txt dataset
+# in the range 1/2/2007-2/2/2007 and display them in one split page.
+# the resulting graphs are saved to a png image file
 
 x<-read.table("household_power_consumption.txt")
 y<-subset(x,Date=="1/2/2007" | Date=="2/2/2007")
