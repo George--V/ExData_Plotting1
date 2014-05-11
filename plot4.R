@@ -1,4 +1,4 @@
-# This script generates for plotsfrom the household_power_consumption.txt dataset
+# This script generates for plots from household_power_consumption.txt dataset
 # in the range 1/2/2007-2/2/2007 and display them in one split page.
 # the resulting graphs are saved to a png image file
 
